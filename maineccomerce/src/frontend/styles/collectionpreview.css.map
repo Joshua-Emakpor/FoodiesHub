@@ -1,1 +1,1 @@
-{"version":3,"sources":["collectionpreview.scss","collectionpreview.css"],"names":[],"mappings":"AAAA;EACK,aAAA;EACA,sBAAA;EACA,kBAAA;EACA,kBAAA;EAEA,mBAAA;ACAL;ADEK;EACE,eAAA;EACA,mBAAA;ACAP;ADGK;EACE,aAAA;EACA,8BAAA;ACDP","file":"collectionpreview.css"}
+{"version":3,"sources":["collectionpreview.scss","collectionpreview.css"],"names":[],"mappings":"AAAA;EACE,aAAA;EACA,sCAAA;EACA,WAAA;ACCF","file":"collectionpreview.css"}

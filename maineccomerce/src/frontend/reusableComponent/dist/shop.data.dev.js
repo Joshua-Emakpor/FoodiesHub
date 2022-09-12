@@ -3,8 +3,10 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports["default"] = exports.ShopData = void 0;
-var ShopData = [{
+exports["default"] = void 0;
+
+/* Used as starting data for ShopPage */
+var SHOP_DATA = [{
   id: 1,
   title: 'Hats',
   routeName: 'hats',
@@ -12,7 +14,7 @@ var ShopData = [{
     id: 1,
     name: 'Brown Brim',
     // imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-    imageUrl: "/images/shop-img/hats/brown-brim.png",
+    imageUrl: "C:/Users/dell/Desktop/FoodiesHub/maineccomerce/src/frontend/images/brown-brim.png",
     price: 25
   }, {
     id: 2,
@@ -71,7 +73,7 @@ var ShopData = [{
     id: 10,
     name: 'Adidas NMD',
     // imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-    imageUrl: "C:/Users/dell/Desktop/FoodiesHub/maineccomerce/src/frontend/images/adidas-nmd.png",
+    imageUrl: "/images/shop-img/sneakers/adidas-nmd.png",
     price: 220
   }, {
     id: 11,
@@ -236,10 +238,9 @@ var ShopData = [{
     id: 35,
     name: 'Burgundy T-shirt',
     // imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-    imageUrl: "/images/shop-img/mens/polka-dot-shirt.png",
+    imageUrl: "../images/shop-img/mens/polka-dot-shirt.png",
     price: 25
   }]
 }];
-exports.ShopData = ShopData;
-var _default = ShopData;
+var _default = SHOP_DATA;
 exports["default"] = _default;
